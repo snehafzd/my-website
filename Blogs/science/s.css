@@ -1,0 +1,59 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* 3-column layout */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 40px;   /* ✅ adds gap below navbar */
+}
+
+/* Card matches image size */
+.card {
+    position: relative;
+    width: 350px;  /* controlled width */
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Hover effect */
+.card:hover .overlay {
+    opacity: 1;
+}

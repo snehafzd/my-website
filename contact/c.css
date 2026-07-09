@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+}
+
+/* Section Styling */
+.connect-section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.connect-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.connect-section p {
+    color: #666;
+    margin-bottom: 50px;
+}
+
+/* Social Grid */
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.social-card {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 20px 40px;
+    border-radius: 12px;
+    min-width: 180px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover */
+.social-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Platform Colors */
+.instagram {
+    background: linear-gradient(45deg, #fd1d1d, #833ab4);
+}
+
+.youtube {
+    background: #ff0000;
+}
+
+.pinterest {
+    background: #e60023;
+}
+
+.amazon {
+    background: #232f3e;
+}
+
+.meesho {
+    background: #9c27b0;
+}

@@ -1,0 +1,34 @@
+/* Navbar container */
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background: linear-gradient(90deg, #c084fc, #a855f7);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Each item */
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.nav-item a:hover {
+    color: #2d033b;
+}
